@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import QierPlayer from 'qier-player';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <QierPlayer srcOrigin='https://media.w3.org/2010/05/sintel/trailer_hd.mp4' />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
