@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import QierPlayer from 'qier-player';
+import Boton from './components/boton';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <div>
+    <h1>Soy Carlos</h1>
+    <App />
+    <Boton />
     <QierPlayer srcOrigin='https://media.w3.org/2010/05/sintel/trailer_hd.mp4' />
-  </React.StrictMode>,
+  </div>,
   document.getElementById('root')
 );
 
